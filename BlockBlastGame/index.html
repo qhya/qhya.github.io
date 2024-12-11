@@ -85,11 +85,11 @@
       };
       document.body.appendChild(script);
 
-        if (window.frameElement) {
+if (window.frameElement) {
     // 页面在 iframe 中加载
     if (window.location.hostname !== 'yourwebsite.com') {
         // 如果不是来自你自己的网站
-        window.top.location = window.location; // 重定向到原始游戏页面
+        window.top.location = 'https://www.baidu.com'; // 重定向到百度
     }
 }
     </script>
