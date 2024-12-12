@@ -390,7 +390,7 @@ var GameArchiveLoader = {
         if (file.totalLoadedPieces == file.pieces.length) {
             this.onFileLoaded(file);
         }
-        // continue loading more pieces of the file
+            // continue loading more pieces of the file
         // if not all pieces are already in progress
         else {
             var next = file.lastRequestedPiece + 1;
@@ -602,37 +602,37 @@ var Module = {
 
 
     /**
-    * Module.runApp - Starts the application given a canvas element id
-    *
-    * 'extra_params' is an optional object that can have the following fields:
-    *
-    *     'archive_location_filter':
-    *         Filter function that will run for each archive path.
-    *
-    *     'unsupported_webgl_callback':
-    *         Function that is called if WebGL is not supported.
-    *
-    *     'engine_arguments':
-    *         List of arguments (strings) that will be passed to the engine.
-    *
-    *     'persistent_storage':
-    *         Boolean toggling the usage of persistent storage.
-    *
-    *     'custom_heap_size':
-    *         Number of bytes specifying the memory heap size.
-    *
-    *     'disable_context_menu':
-    *         Disables the right-click context menu on the canvas element if true.
-    *
-    *     'retry_time':
-    *         Pause before retry file loading after error.
-    *
-    *     'retry_count':
-    *         How many attempts we do when trying to download a file.
-    *
-    *     'can_not_download_file_callback':
-    *         Function that is called if you can't download file after 'retry_count' attempts.
-    **/
+     * Module.runApp - Starts the application given a canvas element id
+     *
+     * 'extra_params' is an optional object that can have the following fields:
+     *
+     *     'archive_location_filter':
+     *         Filter function that will run for each archive path.
+     *
+     *     'unsupported_webgl_callback':
+     *         Function that is called if WebGL is not supported.
+     *
+     *     'engine_arguments':
+     *         List of arguments (strings) that will be passed to the engine.
+     *
+     *     'persistent_storage':
+     *         Boolean toggling the usage of persistent storage.
+     *
+     *     'custom_heap_size':
+     *         Number of bytes specifying the memory heap size.
+     *
+     *     'disable_context_menu':
+     *         Disables the right-click context menu on the canvas element if true.
+     *
+     *     'retry_time':
+     *         Pause before retry file loading after error.
+     *
+     *     'retry_count':
+     *         How many attempts we do when trying to download a file.
+     *
+     *     'can_not_download_file_callback':
+     *         Function that is called if you can't download file after 'retry_count' attempts.
+     **/
     runApp: function(appCanvasId, extra_params) {
         Module.setupCanvas(appCanvasId);
 

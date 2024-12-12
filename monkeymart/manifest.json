@@ -1,10 +1,10 @@
 {
-  "name": "ubg235",
-  "description": "ubg235",
-  "short_name": "ubg235",
-  "icons": [    
+  "name": "Monkey Mart",
+  "description": "Monkey Mart is an idle/management game where you manage a monkey-run supermarket, growing produce, selling items, and hiring assistants.",
+  "short_name": "monkey-mart",
+  "icons": [
     {
-      "src": "/patch/images/null.png",
+      "src": "/favicon-512x512",
       "sizes": "512x512",
       "purpose": "maskable",
       "type": "image/png"
